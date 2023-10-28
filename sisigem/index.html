@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Navegación y Formulario</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Agregamos el archivo CSS personalizado -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap"> <!-- Agregamos la fuente personalizada "Lato" -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"> <!-- Agregamos la biblioteca Font Awesome -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sección de navegación en el lado izquierdo -->
+            <nav class="col-md-2 navbar-extended">
+                <h4 class="text-light">SISOGEM</h4>
+                <br>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html"><i class="fas fa-home"></i> Entidad</a> <!-- Icono de inicio -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" href="acerca.html"><i class="fas fa-info-circle"></i> Otra pagina</a> <!-- Icono de información -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="integrantes.html"><i class="fas fa-envelope"></i>integrantes</a> <!-- Icono de correo -->
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Formulario en el lado derecho -->
+            <div class="col-md-4">
+                <div class="d-flex flex-column">
+                    <h1>Formulario</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for "opciones">Desglose con Opciones:</label>
+                            <select class="form-control" id="opciones">
+                                <option>Opción 1</option>
+                                <option>Opción 2</option>
+                                <option>Opción 3</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-primary">Seleccionar</button>
+                    </form>
+                    <hr>
+                    <button class="btn btn-primary">Seleccionar Firma Digital</button>
+                    <h4>Documentos a Firmar:</h4>
+                    <div class="btn-group">
+                        <button class="btn btn-info btn-docs">Lista de Asistencia</button>
+                        <button class="btn btn-info btn-docs ml-2">Acta de Sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

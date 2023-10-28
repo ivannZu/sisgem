@@ -1,0 +1,27 @@
+/* Estilo para la barra de navegación */
+.navbar-extended {
+    background-color: #6A0F49;
+    min-height: 100vh;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilo para los encabezados (h1, h2, etc.) con la fuente personalizada */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilo para los botones de documentos a firmar con la clase "btn-docs" */
+.btn-docs {
+    font-size: 12px; /* Reduzco el tamaño de la fuente */
+    padding: 6px 12px; /* Reduzco el espaciado interior del botón */
+    max-width: 150px; /* Establezco un ancho máximo para evitar que los botones sean muy largos */
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 10px; /* Adjust the spacing as needed */
+}
+
+
+

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0074a7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a91;
+}
+
+
+/* Update the navigation section for a more professional look */
+nav {
+    background-color: #0074a7; /* Dark blue background */
+    color: white;
+    width: 250px;
+    min-height: 100vh;
+    padding-top: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px 20px; /* Increase padding for a more spacious feel */
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #005a91; /* Slightly darker blue on hover */
+}
